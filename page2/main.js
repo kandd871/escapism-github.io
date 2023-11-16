@@ -200,11 +200,6 @@ const data = [
         "color": "#9158B3"
     },
     {
-        "user": "Vinny_Lam",
-        "info": "Video games, music, and anime.",
-        "color": "#BA9100"
-    },
-    {
         "user": "shahalam7559",
         "info": "Just turn on ANC on my headphone and listen to my favourite music!",
         "color": "#92D274"
@@ -213,6 +208,11 @@ const data = [
         "user": "HeatmiserElliot",
         "info": "hike. believe it or not we still live in a world with a small enough population that there are countless places you can go to experience the world without one human being in sight. thats the good stuff",
         "color": "#562873"
+    },
+     {
+        "user": "Vinny_Lam",
+        "info": "Video games, music, and anime.",
+        "color": "#BA9100"
     },
     {
         "user": "[deleted]",
