@@ -37,7 +37,7 @@ function changeImage(step) {
     const nextBtn = document.getElementById("nextBtn");
     if (currentIndex === images.length - 1) {
         nextBtn.removeAttribute("onclick");
-        nextBtn.innerHTML = `<a href="../../listen/index.html"><img id="arrow2" src="arrow.png"></a>`;
+        nextBtn.innerHTML = `<a href="../../music/index.html"><img id="arrow2" src="arrow.png"></a>`;
 
     } else {
         nextBtn.setAttribute("onclick", "changeImage(1)");
