@@ -185,14 +185,14 @@ const data = [
         "color": "#FFC701"
     },
     {
-        "user": "TheTimeShrike",
-        "info": "I drink too much, but also there’s virtual reality. Talk about an escape. I love my oculus.",
-        "color": "#AEFAFF"
-    },
-    {
         "user": "plojjj",
         "info": "Meditation",
         "color": "#9158B3"
+    },
+    {
+        "user": "TheTimeShrike",
+        "info": "I drink too much, but also there’s virtual reality. Talk about an escape. I love my oculus.",
+        "color": "#AEFAFF"
     },
     {
         "user": "Vinny_Lam",
