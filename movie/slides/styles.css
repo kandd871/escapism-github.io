@@ -4,37 +4,49 @@ html {
 
 body {
     margin: 0;
-    background: #0D1416;
+    background: black;
     color: white;
 }
 
-.body {
+.container{
     display: flex;
     width: 100%;
     height: 100vh;
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Center items vertically */
+    margin-bottom: -3%;
+    position: relative;
 }
 
 .box {
+    position: relative; /* Ensure relative positioning */
     display: flex;
-    align-items: center;
-    width: 100%;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+#imageText {
+    display: block;
+    font-size: 3vh;
+    color: #F3CE32;
+    margin-top: -5.5vh; /* Push to the bottom */
+    font-weight: bold;
+    text-align: center;
 }
 
 .box img {
     background: #1D282C;
     display: flex;
-    width: 75vw;
+    width: 77.5vw;
     border-radius: 4vw;
-    border: 1px solid yellow; /* Add !important to ensure priority */
+    border: 1.5px solid yellow; /* Add !important to ensure priority */
     margin: 0 auto;
-    margin-top: -5vh;
+    margin-top: -7vh;
 }
 
 
 #arrow1, #arrow2 {
-    width: 80%;
+    width: 65%;
     position: relative;
     display: flex;
     margin: 0 auto;
@@ -64,21 +76,12 @@ button:hover {
 
 #arrow1{
     position: relative;
-    left: -1.5vw;
+    left: 0vw;
 }
 
 #arrow2{
     position: relative;
-    left: -1.5vw;
-}
-
-#imageText{
-    display: block;
-    font-size: 1.75vw;
-    color: #F3CE32;
-    margin-top: -7vh;
-    font-weight: bold;
-    text-align: center;
+    left: 0vw;
 }
 
 .comments {

@@ -7,15 +7,14 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<div class='body'>
-<button id='comments'><div class="comments">+</div></button>
-<div class="arrow"> <button id="prevBtn" onclick="changeImage(-1)"><img id ='arrow1' src='arrow.png'></button></div>
-<div class="box">
-            <img id="sliderImage" src="imgs/amelie.jpeg">
+<div class='container'>
+    <div class="arrow"> <button id="prevBtn" onclick="changeImage(-1)"><img id ='arrow1' src='arrow.png'></button></div>
+    <div class="box">
+        <img id="sliderImage" src="imgs/amelie.jpg">
+        <div id="imageText">[Am&eacutelie]</div>
+    </div>
+    <div class="arrow"> <button id="nextBtn" onclick="changeImage(1)"><img id ='arrow2' src='arrow.png'></button></div>
 </div>
-<div class="arrow"> <button id="nextBtn" onclick="changeImage(1)"><img id ='arrow2' src='arrow.png'></button></div>
-</div>
-<div id="imageText">[Am&eacutelie]</div>
 </body>
 <script type="text/javascript" src="main.js"></script>
 </html>

@@ -18,8 +18,8 @@ body{
 .box {
     background: #D9D9D9;
     width: 75%;
-    border-radius: 5vw;
-    padding: 3vw;
+    border-radius: 4.5em;
+    padding: 2.75em;
 }
 
 .content{
@@ -32,13 +32,11 @@ body{
 }
 
 .nav{
-    padding-left: 1vw;
     padding-top: 1vh;
-    padding-left: 1vw;
-    padding-right: 1%;
+    padding-left: 1.8vh;
+    padding-right: 1.05vh;
     padding-bottom: 1vh;
-    height: 1200vh;
-    width: 6vw;
+    height: 1400vh;
     font-size: 3vh;
     background: #D9D9D9;
     border-right: 1px solid black;
@@ -58,7 +56,7 @@ a{
    color: #D9D9D9; 
    background: black;
    color: #D9D9D9;
-    border-radius: 2vw;
+    border-radius: 2em;
     border: 1px solid black;
 }
 
@@ -116,8 +114,8 @@ a{
     display: block;
     background: #D9D9D9;
     width: 55%;
-    border-radius: 3vw;
-    padding: 2vw;
+    border-radius: 2em;
+    padding: 1.35em;
     font-size: 2.75vh;
     margin-bottom: 4vh; 
 }
@@ -161,4 +159,13 @@ a{
 .top{
     display: flex;
     margin-bottom: 20vh;
+}
+
+@media only screen and (max-width: 900px){
+    .content{
+        width: 100%;
+        margin-left: 25vw;
+        margin-right: -8vw;
+    }
+
 }
