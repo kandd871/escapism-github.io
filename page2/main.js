@@ -212,7 +212,7 @@ const data = [
     {
         "user": "chris34121",
         "info": "I am a flight simulator hobbyist, and I escape by delving into the simulator.\n\nFor over 10 years now, when life gets to me, I make an escape by perfecting my flight sim world, not much unlike a model train enthusiast creates dioramas in their basement.\n\nAircraft modelling, sound engineering, environment textures such as the sky, ground, water, and trees, buildings, airport details, there's always something to tweak and work on and improve to make actually using the simulator for simulating just a bit more fun and realistic!\n\nBut my favorite part of it all is AI traffic.\n\nMyself and a team of other enthusiasts have worked for years now to \"back-date\" the AI traffic in flight sim with schedules and aircraft going from the late 90s and early 00s all the way back to the 30s in some instances. We can choose what year we want to fly, and with a week or two of work on installing schedules, we can fly in that year in our flight sim. Currently my project has been 1998, and this has been so incredibly rewarding!\n\nI live by and love my flight sim. It has always been there for me when life is too much and continues to be there for me when I have free time. Nothing else like it on this planet 🙂",
-        "color": "#6D6868"
+        "color": "#F8ACFF"
     },
     {
         "user": "Highborn0298",
@@ -345,11 +345,25 @@ const data2 = [
         "level": "3"
     },
     {
+        "user": "seanpwns",
+        "time": "2 yr. ago",
+        "info": "drugs AND video games",
+        "color": "#F07845",
+        "level": "2"
+    },
+    {
         "user": "Dexaan",
         "time": "2 yr. ago",
         "info": "I'm surprised drugs was this far down. Mind you, I wouldn't be surprised if drugs were involved in a lot of those wholesome and healthy answers, even as more of a... side dish, I guess? A complement rather than the main activity.",
         "color": "#7DA49D",
         "level": "2"
+    },
+    {
+        "user": "mpw90",
+        "time": "2 yr. ago",
+        "info": "The way it should be my dude.",
+        "color": "#382C2C",
+        "level": "3"
     },
     {
         "user": "tallandlanky",
@@ -604,7 +618,7 @@ function createElements() {
                 minitext.innerHTML = data2Item.info.replace(/\n/g, '<br>');
 
                 if (
-                    data2Item.info.toLowerCase().includes('movie') ||
+                    data2Item.user.toLowerCase().includes('sean') ||
                     data2Item.info.toLowerCase().includes('reddit')
                 ) {
                     minibox.style.backgroundColor = data2Item.color;
