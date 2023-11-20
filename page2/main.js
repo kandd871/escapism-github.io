@@ -273,7 +273,7 @@ const data = [
     {
         "user": "rooftopflith",
         "info": "Browse Reddit for stupid lengths of time!",
-        "color": "#FFF000"
+        "color": "#8DFF57"
     }
 ];
 
