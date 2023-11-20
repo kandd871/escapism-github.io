@@ -167,7 +167,7 @@ const data = [
     {
         "user": "DeionizableNormality",
         "info": "Imagine how things might get better in my life if I tweaked a few things, practice gratitude, meditate, read fiction, talk to my parents, learn about interesting things on Reddit or the web in general, audiobook while taking an evening walk. Sometimes I like to act as though nobody around me can see me and I slip into a child like curiosity.\n\nThe other day I was walking around my apartment complex in some kaki shorts and a plaid button down/my Fanny pack sashed around my shoulder. I went into the office area to try and find this back terrace I saw while walking around the building. I found myself in the gym where they had one of those Walmart brand peloton bikes. I decided… why not give it a go! Even though everyone was looking at me in the gym like I wasn’t supposed to be there, I went for a stationary two mile bike ride while listening to my book. Happily got off after my ride, cleaned the machine, and went on my way to continue my adventure.\n\nIt seems to me that the quality of mind you’re carrying about with you will help a ton. It’s much better to slip back into that childlike curiosity than dwell on your adult life where circumstances are only moderately malleable. Slipping into that curiosity is what really makes all of these stories about people’s disconnection so salient. Whether it’s reading, day dreaming, gaming, etc. everyone is portraying a level of childlike curiosity about their lives and minds have to offer. It’s not so serious, enjoy this life and the people around you will enjoy theirs more too.",
-        "color": "#FFB800"
+        "color": "#FBFF27"
     },
     {
         "user": "dontjustexists",
