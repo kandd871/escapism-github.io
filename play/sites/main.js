@@ -16,12 +16,12 @@ const websites = [
     },
     {
         "websiteName": "Poptropica",
-        "url": "poptropica.com",
+        "url": "https://www.poptropica.com/",
         "img": "imgs/pop.png"
     },
     {
         "websiteName": "chess.com",
-        "url": "chess.com",
+        "url": "https://www.chess.com/",
         "img": "imgs/chess.png"
     },
     {
